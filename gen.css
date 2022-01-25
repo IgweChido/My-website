@@ -1,0 +1,150 @@
+/************GENERAL STYLES FOR MY WEB ************/
+
+
+*{
+	box-sizing: border-box;
+}
+
+html, body{
+
+	padding: 0px;
+	margin: 0px;
+}
+
+/********* HEAD ********/
+.head{
+	position: relative;
+	padding: 30px;
+	/*border: 1px solid green;*/
+}
+
+.homebtn{
+
+	font-size: 30px;
+	position: absolute;
+	left: 25px;
+	bottom: 12px;
+	top: 12px;
+}
+
+.homebtn a{
+	text-decoration: none;
+	color: #00001a;
+}
+
+
+.homebtn a:hover, .sidenav a:hover{
+	color:#00111a;
+	text-shadow: 
+	 0 0 5px #00aeff,
+	/* 0 0 10px #00aeff,*/
+	 /*0 0 20px #00aeff,
+	 0 0 40px #00aeff,
+	 0 0 80px #00aeff,
+	 0 0 90px #00aeff, */
+	 /*0 0 100px #00aeff,*/
+	 0 0 150px #00aeff;
+}
+
+
+
+.sidenav{
+	position: absolute;
+	right: 40px;
+	
+	top: 19px;
+}
+
+.sidenav a{
+	text-align: center;
+	display: inline-block;
+	font-size: 21px;
+	text-decoration: none;
+	color: #00001a;
+	margin: 0 10px 0;
+
+}
+
+.current{
+	
+	height: 5px;
+	margin-top: 11px;
+	background-color: #00001a;
+	width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+/********* FOOT ********/
+.foot{
+	background-color: #00001a;
+	text-align: center;
+	/*border: 1px solid yellow;*/
+	padding: 10px;
+}
+
+
+.soclinks{
+	margin-top: 20px;
+
+	/*border: 1px solid green;*/
+}
+
+.soclinks a{
+	color: white;
+	margin: 0 10px 0 10px;
+	text-decoration: none;
+	font-size: 30px;
+}
+
+
+.entice{
+	color: white;
+	/*border: 1px solid red;*/
+	font-size: 30px;
+}
+
+.entice p{
+
+}
+
+.footnav{
+	margin-bottom: 30px;
+	/*border: 1px solid blue;*/
+}
+
+.footnav a{
+	color: white;
+	display: block;
+	
+	text-decoration: none;
+	font-size: 20px;
+	margin-bottom: 10px;
+}
+
+.footnav a:hover{
+	color:#99dbff;
+	text-shadow: 
+	 0 0 5px #00aeff,
+	/* 0 0 10px #00aeff,*/
+	 /*0 0 20px #00aeff,
+	 0 0 40px #00aeff,
+	 0 0 80px #00aeff,
+	 0 0 90px #00aeff, */
+	 /*0 0 100px #00aeff,*/
+	 0 0 150px #00aeff;
+}
+
+.copyrt{
+	font-size: 13px;
+	color: white;
+	/*border: 1px solid brown;*/
+}

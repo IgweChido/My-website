@@ -1,0 +1,161 @@
+/****************** BODY  *******************/
+
+.body{
+	
+}
+
+
+/******* Experience and Skills Div ******/
+
+.Exp{
+	padding: 0px 0 700px;
+
+	/*border:1px solid green;*/
+}
+
+
+.col1{
+	width: 50%;
+	float:left;
+	/*border:1px solid brown;*/
+	padding: 10px 25px ;
+
+}
+
+.topmain{
+	
+	
+
+}
+
+.main{
+	/*color: 1px solid black;*/
+	color: blue;
+
+}
+
+.name{
+	padding-left: 60px;
+}
+
+.desc{
+	padding-left: 60px;
+}
+
+
+.date{
+	padding-left: 60px;
+	color: grey;
+}
+
+
+
+
+.col2{
+	color: white;
+	background-color: #00001a;
+	width: 50%;
+	float: right;
+	/*border:1px solid yellow;*/
+	padding: 10px 25px;
+	height: 678px;
+}
+
+.skill p{
+	display: inline-block;
+	margin-right: 10px;
+}
+
+
+
+ .fa-star:hover{
+	font-size: 30px;
+
+}
+
+.fa-star{
+	font-size: 13px;
+
+}
+
+.gold{
+	color: gold;
+}
+
+.grey{
+	color: grey;
+}
+
+
+
+
+
+/*******  Project Div ******/
+
+.project{
+	margin: 30px 0px;
+	/*border: 1px solid red;*/
+}
+
+.project h1{
+	text-align: center;
+}
+
+.row1{
+	margin: 0px;
+}
+
+
+.pro1{
+	cursor: pointer;
+	display: inline-block;
+	position: relative;
+	margin: 25px 40px 25px 40px;
+	height: 250px;
+	width: 350px;
+}
+
+.pro1 img{
+	border-radius: 20px;
+	border: 3px solid #00001a;
+	height: 250px;
+	width: 400px;
+}
+
+
+
+
+.pdesc{
+	display: none;
+	padding: 10px;
+	/*border:6px solid yellow;*/
+	height: 244px;
+	width: 394px;
+	border-radius: 16px;
+	
+	position: absolute;
+	top: 3px;
+	left: 3px;
+	color: black;
+	background-color: #33ccff;
+	opacity: 0.95;
+
+}
+
+
+.pdesc h2{
+	margin: 0px;
+}
+
+
+.pdesc p{
+	font-size: 17px;
+}
+
+
+.pdesc a{
+	 color: blue;
+	 font-size: 20px;
+
+}
+

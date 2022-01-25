@@ -1,0 +1,409 @@
+/****************** BODY  *******************/
+
+.body{
+	
+}
+
+
+/********  TOP **********/
+
+.matrixback{
+	/*background-image: url("images/matrix5.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;*/
+	height: 300px;
+	position: relative;
+	margin-bottom: 30px;
+
+}
+
+.mypic{
+	position: absolute;
+	right: 40px;
+	bottom: 30px;
+}
+
+.mypic img{
+	border-radius: 50%;
+	height: 150px;
+	width: 150px;
+}
+
+.ligtnback{
+	
+	height: 200px;
+	padding: 25px 25px; 
+	background-image: url("images/code1.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	
+
+}
+
+
+.ligtnback p{
+	margin-top: 30px;
+	color: white;
+	font-size: 25px;
+
+}
+
+
+.animat{
+	/* border: 1px solid white;*/
+	 position: relative;    
+    
+      
+  
+}
+
+
+
+span.word {
+ 	
+      font-size:25px;
+      margin-left: 6px;
+      font-weight:bold;
+      opacity:0;
+      position: absolute;
+      width: 100%;
+
+     color: #ccefff; 
+  text-shadow:
+    0 0 5px #00aeff,
+    0 0 10px #00aeff,
+    0 0 20px #00aeff,
+    0 0 40px #00aeff,
+    0 0 80px #00aeff,
+    0 0 90px #00aeff,
+    0 0 100px #00aeff,
+    0 0 150px #00aeff;
+     
+     
+    }
+
+
+ @keyframes w1anim {
+      0%{
+        opacity: 0;
+      }
+      10%{
+        opacity: 1;
+      }
+      20% {
+        opacity:0;
+      }
+    }
+     
+    @keyframes w2anim {
+      20%{
+        opacity: 0;
+      }
+      30%{
+        opacity: 1;
+      }
+      40% {
+        opacity:0;
+      }
+    }
+     
+    @keyframes w3anim {
+      40%{
+        opacity: 0;
+      }
+      50%{
+        opacity: 1;
+      }
+      60% {
+        opacity:0;
+      }
+    }
+     
+    @keyframes w4anim {
+      60%{
+        opacity: 0;
+      }
+      70%{
+        opacity: 1;
+      }
+      80% {
+        opacity:0;
+      }
+    }
+     
+    @keyframes w5anim {
+      80%{
+        opacity: 0;
+      }
+      90%{
+        opacity: 1;
+      }
+      100% {
+        opacity:0;
+      }
+    }
+
+.w1 {
+
+	font-family: Architects Daughter;
+  -webkit-animation: w1anim 5s infinite;
+          animation: w1anim 5s infinite;
+          
+}
+
+.w2 {
+	font-family:Parisienne;
+  -webkit-animation: w2anim 5s infinite;
+          animation: w2anim 5s infinite;
+          
+}
+
+.w3 {
+	font-family:Henny Penny;
+  -webkit-animation:w3anim 5s infinite;
+          animation:w3anim  5s infinite;
+
+}
+
+.w4 {
+	font-family: Pacifico;
+  -webkit-animation:w4anim 5s infinite;
+          animation:w4anim  5s infinite;
+}
+
+.w5 {
+	font-family: Amatic SC;
+  -webkit-animation:w5anim 5s infinite;
+          animation: w5anim 5s infinite;
+}
+
+
+
+
+
+
+
+
+
+
+/********  Sections **********/
+
+
+/****** Sec1 ******/
+.sec1{
+	/*border: 1px solid green;*/
+	margin-bottom: 50px;
+	height: 500px;
+	padding: 30px 0px;
+}
+
+.sec1 h2{
+	text-align: center;
+}
+
+
+.sec11{
+	margin-top: 30px;
+	position: relative;
+	/*border: 1px solid blue;*/
+	float: left;
+	clear: left;
+	width: 50%;
+	padding: 30px 25px;
+	height: 300px;
+}
+
+.sec11 p{
+	/*border: 1px solid yellow;*/
+	font-size: 20px;
+}
+
+.sec11 a{
+	position: absolute;
+	border: 2px solid black;
+	text-decoration: none;
+	color: black;
+	padding: 10px;
+	border-radius: 5px;
+	bottom: 30px;
+	left: 45%;
+}
+
+.sec11 a:hover{
+	border: 2px solid blue;
+	color: blue;
+}
+
+
+
+
+.sec12{
+	margin-top: 30px;
+	/*border: 1px solid yellow;*/
+	height: 300px;
+	float: right;
+	clear: right;
+	width: 50%;
+	
+}
+
+.sec12 img{
+	height: 300px;
+	width: 98%;
+	margin-right: 3.72%;
+}
+
+
+
+
+/******* Sec2 *******/
+
+.sec2{
+	background-color:#00001a;
+	/*border: 1px solid green;*/
+	margin-bottom: 50px;
+
+	color: white;
+	padding: 30px 0px;
+
+	height: 500px;
+}
+
+.sec2 h2{
+
+	text-align: center;
+}
+
+
+.sec21{
+	margin-top: 30px;
+	/*border: 1px solid yellow;*/
+	height: 300px;
+	float: left;
+	clear: left;
+	width: 50%;
+	
+}
+
+.sec21 img{
+	height: 300px;
+	width: 98%;
+	margin-left: 3.72%;
+}
+
+
+.sec22{
+	margin-top: 30px;
+	position: relative;
+	/*border: 1px solid blue;*/
+	float: right;
+	clear: right;
+	width: 50%;
+	padding: 30px 10px 30px 35px;
+	height: 300px;
+}
+
+.sec22 p{
+	/*border: 1px solid yellow;*/
+	font-size: 20px;
+}
+
+.sec22 a{
+	position: absolute;
+	border: 2px solid white;
+	text-decoration: none;
+	color: white;
+	padding: 10px;
+	border-radius: 5px;
+	bottom: 30px;
+	left: 45%;
+}
+
+.sec22 a:hover{
+	border: 2px solid blue;
+	color: blue;
+}
+
+
+/***** Quotes ****/
+
+.quotes{
+	/*border: 1px solid black;*/
+	padding: 30px 60px 60px;
+}
+
+.quotes h2{
+	text-align: center;
+}
+
+.q1{
+
+	
+
+	display: inline-block;
+
+	/*border: 1px solid blue;*/
+	border-radius: 10px;
+	margin: 40px 27px 30px;
+	height: 250px;
+	width: 350px;
+	overflow: hidden;
+
+	
+
+}
+
+
+.overflowdiv{
+	position: relative;
+	
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .5s ease-in-out;
+	transition: .5s ease-in-out;
+
+}
+
+
+
+.overflowdiv:hover{
+	-webkit-transform: scale(1.5);
+	transform: scale(1.5);
+}
+
+
+
+
+.overflowdiv p{
+	/*border: 1px solid yellow;
+	*/
+	color: white;
+	padding: 10px;
+	position: absolute;
+	 top: 50%;
+    left: 50%;
+	font-size: 16px;
+	text-align: center;
+	margin: 0px;
+
+	transform: translate(-50%, -50%);
+
+}
+
+.overflowdiv img{
+
+	
+	border-radius: 10px;
+	height: 250px;
+	width: 350px;
+}
+
+
+
+
+
+
